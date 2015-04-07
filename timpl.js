@@ -1,3 +1,6 @@
+/**
+ * window.timpl
+ */
 ;(function(window) {
   "use strict";
 
