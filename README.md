@@ -1,6 +1,6 @@
 # timpl [![Circle CI](https://circleci.com/gh/clearhead/timpl.svg?style=svg)](https://circleci.com/gh/clearhead/timpl)
 
-`multiline(/*text*/) || strings` with optional data templating 
+`multiline(function () {/*text*/}) || strings` with optional data templating 
 
 #### Usage
 
