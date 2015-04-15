@@ -30,6 +30,8 @@ $('head').append(window.timpl(function () {/*
 */}, {title: 'demo', src: '//placehold.it/200x200'}));
 
 // is much cleaner than this:
+var title = 'demo';
+var src = '//placehold.it/200x200';
 $('head').append([
   '<section id="content">',
   '  <h1>', title, '</h1>',
