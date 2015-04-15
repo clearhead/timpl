@@ -1,11 +1,11 @@
 # timpl [![Circle CI](https://circleci.com/gh/clearhead/timpl.svg?style=svg)](https://circleci.com/gh/clearhead/timpl)
 
-Inspied by 
+Inspired by 
  
 * https://github.com/sindresorhus/multiline
 * https://github.com/premasagar/tim
 
-tldr multiline || strings with optional data templating 
+tldr `multiline(/*text*/)` || strings with optional data templating 
 
 ## Usage
 
