@@ -2,7 +2,7 @@
 
 `multiline(/*text*/) || strings` with optional data templating 
 
-## Usage
+##### Usage
 
 ```js
 window.timpl('one: {{one}}', {one: 1}); // ==> one: 1
