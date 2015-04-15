@@ -2,7 +2,7 @@
 
 `multiline(/*text*/) || strings` with optional data templating 
 
-##### Usage
+#### Usage
 
 ```js
 window.timpl('one: {{one}}', {one: 1}); // ==> one: 1
@@ -18,18 +18,20 @@ window.timpl(function () {/*
 */}, {bar: 'baz'}); // ==> foo: baz
 ```
 
-##### Why?
+##### Why? Because this:
 
 ```js
-// because this:
+// :
 $('#content').replaceWith(window.timpl(function () {/*
   <section id="content">
     <h1>{{title}}</h1>
     <img src="{{src}}">
   </section>
 */}, {title: 'demo', src: '//placehold.it/200x200'}));
+```
+##### is a touch cleaner than this:
 
-// is much cleaner than this:
+```js
 var title = 'demo';
 var src = '//placehold.it/200x200';
 $('#content').replaceWith([
