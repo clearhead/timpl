@@ -5,7 +5,7 @@ Inspired by
 * https://github.com/sindresorhus/multiline
 * https://github.com/premasagar/tim
 
-tldr `multiline(/*text*/)` || strings with optional data templating 
+tldr `multiline(/*text*/) || strings` with optional data templating 
 
 ## Usage
 
