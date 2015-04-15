@@ -1,6 +1,6 @@
 {
   "name": "timpl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "multiline templating",
   "main": "timpl.js",
   "scripts": {
