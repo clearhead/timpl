@@ -23,7 +23,7 @@ window.timpl(function () {/*
 * https://github.com/sindresorhus/multiline
 * https://github.com/premasagar/tim
 
-##### Why? Because this:
+##### Why? Because this...
 
 ```js
 $('#content').replaceWith(window.timpl(function () {/*
@@ -33,7 +33,7 @@ $('#content').replaceWith(window.timpl(function () {/*
   </section>
 */}, {title: 'demo', src: '//placehold.it/200x200'}));
 ```
-##### is cleaner/easier to edit than this:
+##### ...is cleaner/easier to edit than this:
 
 ```js
 var title = 'demo';
