@@ -18,6 +18,11 @@ window.timpl(function () {/*
 */}, {bar: 'baz'}); // ==> foo: baz
 ```
 
+## Inspired by 
+ 
+* https://github.com/sindresorhus/multiline
+* https://github.com/premasagar/tim
+
 ##### Why? Because this:
 
 ```js
@@ -45,9 +50,3 @@ $('#content').replaceWith([
 
 * `npm test`
 * `npm build`
-
-
-## Inspired by 
- 
-* https://github.com/sindresorhus/multiline
-* https://github.com/premasagar/tim
