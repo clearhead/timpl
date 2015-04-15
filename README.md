@@ -33,7 +33,7 @@ $('#content').replaceWith(window.timpl(function () {/*
   </section>
 */}, {title: 'demo', src: '//placehold.it/200x200'}));
 ```
-##### is a touch cleaner than this:
+##### is cleaner/easier to edit than this:
 
 ```js
 var title = 'demo';
