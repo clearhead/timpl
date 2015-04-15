@@ -21,7 +21,6 @@ window.timpl(function () {/*
 ##### Why? Because this:
 
 ```js
-// :
 $('#content').replaceWith(window.timpl(function () {/*
   <section id="content">
     <h1>{{title}}</h1>
