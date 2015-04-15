@@ -22,7 +22,7 @@ window.timpl(function () {/*
 
 ```js
 // because this:
-$('head').append(window.timpl(function () {/*
+$('#content').replaceWith(window.timpl(function () {/*
   <section id="content">
     <h1>{{title}}</h1>
     <img src="{{src}}">
