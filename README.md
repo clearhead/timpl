@@ -18,6 +18,26 @@ window.timpl(function () {/*
 */}, {bar: 'baz'}); // ==> foo: baz
 ```
 
+##### Why?
+
+```js
+// because this:
+$('head').append(window.timpl(function () {/*
+  <section id="content">
+    <h1>{{title}}</h1>
+    <img src="{{src}}">
+  </section>
+*/}, {title: 'demo', src: '//placehold.it/200x200'}));
+
+// is much cleaner than this:
+$('head').append([
+  '<section id="content">',
+  '  <h1>', title, '</h1>',
+  '  <img src="', src, '">',
+  '</section>',
+].join(''));
+```
+
 ## NPM helpers
 
 * `npm test`
