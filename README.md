@@ -15,7 +15,7 @@ window.timpl(function () {/*
 
 window.timpl(function () {/*
   foo: {{bar}}
-*/}, {bar: 'foo'}); // ==> foo: foo
+*/}, {bar: 'baz'}); // ==> foo: baz
 ```
 
 ## NPM helpers
