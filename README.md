@@ -22,3 +22,8 @@ window.timpl(function () {/*
   foo: {{bar}}
 */}, {bar: 'foo'}); // ==> foo: foo
 ```
+
+## NPM helpers
+
+* `npm test`
+* `npm build`
