@@ -7,7 +7,7 @@
     "Tom Fuertes <tomfuertes@gmail.com>"
   ],
   "description": "multiline templating",
-  "license": "WTFPL",
+  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
