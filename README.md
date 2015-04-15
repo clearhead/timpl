@@ -32,7 +32,7 @@ $('#content').replaceWith(window.timpl(function () {/*
 // is much cleaner than this:
 var title = 'demo';
 var src = '//placehold.it/200x200';
-$('head').append([
+$('#content').replaceWith([
   '<section id="content">',
   '  <h1>', title, '</h1>',
   '  <img src="', src, '">',
