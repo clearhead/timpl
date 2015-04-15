@@ -18,7 +18,7 @@ window.timpl(function () {/*
 */}, {bar: 'baz'}); // ==> foo: baz
 ```
 
-## Inspired by 
+## Inspired by / compilation of
  
 * https://github.com/sindresorhus/multiline
 * https://github.com/premasagar/tim
@@ -50,3 +50,4 @@ $('#content').replaceWith([
 
 * `npm test`
 * `npm build`
+* `npm install timpl` || `bower install timpl`
