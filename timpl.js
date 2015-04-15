@@ -1,5 +1,6 @@
-/**
- * window.timpl
+/** 
+ * window.timpl 
+ * usage: http://git.io/vvazo
  */
 ;(function(window) {
   "use strict";
