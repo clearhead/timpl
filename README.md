@@ -1,11 +1,6 @@
 # timpl [![Circle CI](https://circleci.com/gh/clearhead/timpl.svg?style=svg)](https://circleci.com/gh/clearhead/timpl)
 
-Inspired by 
- 
-* https://github.com/sindresorhus/multiline
-* https://github.com/premasagar/tim
-
-tldr `multiline(/*text*/) || strings` with optional data templating 
+`multiline(/*text*/) || strings` with optional data templating 
 
 ## Usage
 
@@ -27,3 +22,9 @@ window.timpl(function () {/*
 
 * `npm test`
 * `npm build`
+
+
+## Inspired by 
+ 
+* https://github.com/sindresorhus/multiline
+* https://github.com/premasagar/tim
