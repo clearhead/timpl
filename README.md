@@ -2,6 +2,8 @@
 
 `fn(/*text*/) || string` with optional data templating 
 
+install: `npm install timpl` || `bower install timpl`
+
 #### Usage
 
 ```js
@@ -49,5 +51,3 @@ $('#content').replaceWith([
 ## NPM helpers
 
 * `npm test`
-* `npm build`
-* `npm install timpl` || `bower install timpl`

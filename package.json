@@ -1,11 +1,10 @@
 {
   "name": "timpl",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "multiline templating",
   "main": "timpl.js",
   "scripts": {
-    "test": "mocha",
-    "build": "uglifyjs timpl.js -o timpl.min.js"
+    "test": "./node_modules/.bin/uglifyjs -c -m -o timpl.min.js -- timpl.js; mocha"
   },
   "author": "tomfuertes@gmail.com",
   "license": "MIT",
