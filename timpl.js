@@ -1,11 +1,10 @@
 /**
- * window.timpl
- * usage: http://git.io/vvazo
+ * timpl / usage: http://git.io/vvazo
  */
-;(function(window) {
+;(function(root) {
   'use strict';
 
-  window.timpl = function(input, data) {
+  root.timpl = function(input, data) {
     return tim(
       input.call ? multiline(input) : input,
       data || {}
