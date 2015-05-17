@@ -2,6 +2,10 @@
   "name": "timpl",
   "version": "0.0.3",
   "description": "multiline templating",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clearhead/timpl.git"
+  },
   "main": "timpl.js",
   "scripts": {
     "build": "./node_modules/.bin/uglifyjs -c -m -o timpl.min.js -- timpl.js",
