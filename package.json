@@ -4,12 +4,15 @@
   "description": "multiline templating",
   "main": "timpl.js",
   "scripts": {
-    "test": "./node_modules/.bin/uglifyjs -c -m -o timpl.min.js -- timpl.js; mocha"
+    "build": "./node_modules/.bin/uglifyjs -c -m -o timpl.min.js -- timpl.js",
+    "test": "npm run build && mocha",
+    "deploy": "npm run build && npm run test && mversion patch && npm publish && git push --follow-tags"
   },
   "author": "tomfuertes@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "mocha": "^2.2.3",
+    "mversion": "^1.10.0",
     "uglify-js": "^2.4.19"
   }
 }
