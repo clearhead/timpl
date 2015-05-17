@@ -1,6 +1,6 @@
 {
   "name": "timpl",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "multiline templating",
   "repository": {
     "type": "git",
@@ -10,7 +10,7 @@
   "scripts": {
     "build": "./node_modules/.bin/uglifyjs -c -m -o timpl.min.js -- timpl.js",
     "test": "npm run build && mocha",
-    "deploy": "npm run build && npm run test && mversion patch && npm publish && git push --follow-tags"
+    "deploy": "npm run build && npm run test && mversion patch -m && npm publish && git push --follow-tags"
   },
   "author": "tomfuertes@gmail.com",
   "license": "MIT",
