@@ -1,4 +1,4 @@
-var exp = $.expX = {
+var exp = {
   timpl: (function() {
     'use strict';
 
