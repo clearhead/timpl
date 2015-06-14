@@ -1,5 +1,5 @@
 var exp = {
-  timpl: (function() {
+  timpl: (function() { // timpl - multiline templating: http://git.io/vvazo
     'use strict';
 
     var reCommentContents = /\/\*!?(?:\@preserve)?[ \t]*(?:\r\n|\n)([\s\S]*?)(?:\r\n|\n)[ \t]*\*\//;
