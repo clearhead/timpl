@@ -7,13 +7,18 @@ var fs = require('fs');
 run('full', require('./timpl').timpl);
 run('min', require('./timpl.min').timpl);
 
-// next has to run in unique global context
-var sandbox = {};
-var propFile = './timpl.prop.js';
-var propFileString = fs.readFileSync(propFile).toString();
-var script = vm.createScript(propFileString, propFile);
-script.runInNewContext(sandbox);
-run('prop', sandbox.exp.timpl);
+runProp('./timpl.prop.js');
+runProp('./timpl.prop.min.js');
+
+function runProp(file) {
+  // next has to run in unique global context
+  var sandbox = {};
+  var propFile = file;
+  var propFileString = fs.readFileSync(propFile).toString();
+  var script = vm.createScript(propFileString, propFile);
+  script.runInNewContext(sandbox);
+  run(file, sandbox.exp.timpl);
+}
 
 function run(name, timpl) {
 
