@@ -7,15 +7,15 @@ install: `npm install timpl` || `bower install timpl`
 #### Usage
 
 ```js
-window.timpl('one: {{one}}', {one: 1}); // ==> one: 1
+timpl('one: {{one}}', {one: 1}); // ==> one: 1
 
-window.timpl('two: {{0}}', [2]); // ==> two: 2
+timpl('two: {{0}}', [2]); // ==> two: 2
 
-window.timpl(function () {/*
+timpl(function () {/*
   foo: bar
 */}); // ==> foo: bar
 
-window.timpl(function () {/*
+timpl(function () {/*
   foo: {{bar}}
 */}, {bar: 'baz'}); // ==> foo: baz
 ```
@@ -28,7 +28,7 @@ window.timpl(function () {/*
 ##### Why? Because this...
 
 ```js
-$('#content').replaceWith(window.timpl(function () {/*
+$('#content').replaceWith(timpl(function () {/*
   <section id="content">
     <h1>{{title}}</h1>
     <img src="{{src}}">
